@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSP Community PBX - Supported Phones</title>
-    <link rel="icon" href="/csplogo.png" type="image/png">
-    <link rel="stylesheet" href="/styles.css">
+    <title>CSP Community PBX</title>
+    <link rel="icon" href="csplogo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -153,44 +153,20 @@
             color: #ffffff;
             text-align: center;
             padding: 10px 0;
-            margin-top: auto; 
-            width: 100%; 
-            position: relative; 
+            margin-top: auto; /* Push the footer to the bottom */
+            width: 100%; /* Ensure the footer spans the full width */
+            position: relative; /* Ensure proper positioning */
         }
 
         footer p {
-            margin: 0; 
+            margin: 0; /* Remove any default margin to keep the text centered */
         }
-        table {
-            width: 100%;
-            border-collapse: collapse; 
-            margin-top: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        th, td {
-            border: 1px solid #ddd; 
-            padding: 10px 15px;
-            text-align: left;
-        }
-
-        thead {
-            background-color: #000000; 
-            font-weight: bold;
-        }
-
-        tbody tr:nth-child(even) {
-            background-color: #fdfdfd; 
-        }
-    </style>
-</head>
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <img src="/CSPPBX.png" alt="CSP Logo" class="logo">
+            <img src="CSPPBX.png" alt="CSP Logo" class="logo">
             <div class="menu-toggle" onclick="toggleMenu()">Menu</div>
             <ul>
                 <li><a href="https://www.pbx.csptech.org">Home</a></li>
@@ -207,222 +183,19 @@
     <main>
         <hr>
         <h1>CSP Community PBX</h1>
-        <p>These are the List of Supported Phones! Please note that Not all supported phones are listed, your phone may still work if it is not listed here, these phones are just the endpoints we have tested.</p>
+        <p>Welcome to CSP Community PBX! We are a Community PBX where Telephone Hobbyists can get hosted lines for over 400+ types of phones! Some Phones types we support include Cisco Enterprise (78XX, 88XX, and CIPC), Cisco 3PCC/SPA, Mitel, Polycom, Grandstream, Yealink, Fanvil, Gigaset, and So much more!</p>
+        <p>CSP Community PBX Offers Free Dial In and Out to the PSTN!</p>
         <hr>
-        <h2>Cisco</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Phone Model</th>
-              <th>Supported?</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>ATA XXX</td>
-              <td>NOT SUPPORTED</td>
-              <td>Does not work no matter what, if you are looking to put an ATA on CSP, we Recommend the SPA Series</td>
-            </tr>
-            <tr>
-              <td>Entire 69XX/79XX/89XX/99XX Series</td>
-              <td>NOT SUPPORTED</td>
-              <td>Does not work no matter What</td>
-            </tr>
-            <tr>
-              <td>Cisco IP Communicator</td>
-              <td>Supported*</td>
-              <td>Requires CSP VPN</td>
-            </tr>
-            <tr>
-              <td>CP-7811</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-7821</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-7832</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-7841</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-7861</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8811</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8825</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8831</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8832</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8841</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8845</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8851</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8861</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8865</td>
-              <td>Supported</td>
-              <td>Full Support</td>
-            </tr>
-            <tr>
-              <td>CP-8875</td>
-              <td>Supported</td>
-              <td>We recommend you put it on 3rd party mode, but both modes work</td>
-            </tr>
-            <tr>
-              <td>Cisco 6800 Series</td>
-              <td>Supported</td>
-              <td>These Phones are all 3PCC, These Phones require Manual Configuration by the end user and cannot be used with the CSP Self Care Portal</td>
-            </tr>
-            <tr>
-              <td>CP-78XX-3PCC</td>
-              <td>Supported</td>
-              <td>These Phones require Manual Configuration by the end user and cannot be used with the CSP Self Care Portal</td>
-            </tr>
-            <tr>
-              <td>CP-88XX-3PCC</td>
-              <td>Supported</td>
-              <td>These Phones require Manual Configuration by the end user and cannot be used with the CSP Self Care Portal</td>
-            </tr>
-            <tr>
-              <td>DP-98XX</td>
-              <td>Supported</td>
-              <td>We recommend you put it on 3rd party mode, but both modes work</td>
-            </tr>
-            <tr>
-              <td>DX-650</td>
-              <td>Supported*</td>
-              <td>Limited Support: Contacts, and Speed dials are not working on this phone</td>
-            </tr>
-            <tr>
-              <td>SPAXXX IP Phones</td>
-              <td>Supported</td>
-              <td>These Phones require Manual configuration by the end user and cannot be used with the CSP Self Care Portal</td>
-            </tr>
-            <tr>
-              <td>SPAXXX ATAs</td>
-              <td>Supported</td>
-              <td>These ATAs require Manual configuration by the end user and cannot be used with the CSP Self Care Portal</td>
-            </tr>
-          </tbody>
-        </table>
+        <h2>PSTN Access Lines</h2>
+        <p>+1 (972) 573-4099<br>+1 (469) 633-4751<br>+61 (02) 8806-2211</p>
         <hr>
-        <h2>GrandStream</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Phone Model</th>
-              <th>Supported?</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HT 801</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>HT 802</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>HT 813</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>HT 818</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>HT 841</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>HT 881</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>GXV3480</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>GXV3470</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>GXV3450</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>GXV3380</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>GXV3370</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>GXV3350</td>
-              <td>Supported</td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-        <p>90% of Granstream Phones Will Work with us. Even if it is not listed here.</p>
+        <h2>Cisco Enterprise Phone Support</h2>
+        <p>Yes! You Saw that correctly! CSP Community PBX Supports Cisco Phones that usually require CUCM to work. Take a look at the supported phones list! We even have our own In-House made Cisco Self Care Portal, where you can use that to manage your CISCO phone, if you do end up putting it on our servers.</p>
+        <a href="/supported_endpoints" target="_blank">Supported Phones</a>
         <hr>
-        <h2>Yealink</h2>
-        <p>Most Yealink phones work with CSP, just make sure it is not running the Microsoft Teams Firmware or any Custom Firmware, as those will not work.</p>
+        <h2>Mitel Support</h2>
+        <p>We also support Mitel phones! Mitel Phones that usually require Mitel's Proprietary PBX Servers, even if it's on SIP, will work on CSP Community PBX As well! Please note not all mitel phones will work, Take a look at the Supported Phone List above.</p>
+        <hr>
     </main>
 
     <footer>
